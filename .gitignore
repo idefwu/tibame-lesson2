@@ -2,8 +2,11 @@
 
 node_modules/
 
-# Claude Code 本機個人設定（含 permission 紀錄與指向 .agents/ 的 symlink）
+# 統一由 .agents 管理，個人的設定不上傳
 .claude/
+.agent
+.codex
+.cursor
 
 # Skill 自動產生的時間戳備份
 .agents/backup/
